@@ -3,7 +3,7 @@ Demo project to detect if eye is open or closed
 
 
 
-## How to run demo
+## How to run train module
 ### Image demo
 
 ```

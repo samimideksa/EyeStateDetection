@@ -313,8 +313,8 @@ def video_demo(json_path,weights_path,video_path):
     process_video(model,video_path)
 
 def image_demo(json_path,weights_path,image_path,image_height,image_width):
-    print(image_height)
-    print(image_width)
+    #print(image_height)
+    #print(image_width)
     img = cv2.imread(image_path)
     if not img is None:
         
@@ -376,7 +376,7 @@ def image_demo(json_path,weights_path,image_path,image_height,image_width):
         cv2.waitKey(0)
         cv2.destroyAllWindows()
     else:
-        print ("Unable to read image from",image_path)
+        print "Unable to read image from",image_path
 
 def process_video(model,video_path):
     """processes either webcam or video.
